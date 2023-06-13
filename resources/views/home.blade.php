@@ -1,6 +1,8 @@
 @extends("layout.main")
 
+
 @section("content")
 
-ciao sono la home
+<h1>Dashboard</h1>
 @endsection
+

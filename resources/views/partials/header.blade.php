@@ -1,16 +1,27 @@
 
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul class="navbar-nav mr-auto">
-      <li class="nav-item active">
-        <a class="nav-link" href="{{route("home")}}">Home</a>
+
+<nav>
+  <ul>
+
+      <a class="" href="{{route("home")}}"><img src="/dc-logo.png" alt=""><img class="resize" src="{{Vite::asset("resources/img/admin.png")}}" alt=""></a>
+
+      <div class="line"></div>
+
+      <li>
+        <a href="{{route("home")}}"><i class="fa-solid fa-house"></i>Home</a>
       </li>
-      <li class="nav-item">
-        <a class="nav-link" href="{{route("comics.index")}}">elenco fumetti</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Link2</a>
-      </li>
-    </ul>
-  </div>
+    <li>
+      <a href="{{route("comics.index")}}"><i class="fa-solid fa-table-list"></i>Elenco fumetti</a>
+    </li>
+    <li>
+      <a href=""><i class="fa-solid fa-file-circle-plus"></i>Nuovo prodotto</a>
+    </li>
+  </ul>
+
+  <ul>
+    <li>
+      <a href=""><i class="fa-solid fa-user"></i></i>Mirko</a>
+    </li>
+  </ul>
+
 </nav>

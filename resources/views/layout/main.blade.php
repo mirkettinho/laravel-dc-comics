@@ -11,13 +11,22 @@
     </head>
     <body>
 
+      <div class="d-flex">
+
       <header>
         @include("partials.header")
       </header>
 
+      <div class="jumbotron">
+
         <main>
           @yield("content")
         </main>
+
+      </div>
+
+
+      </div>
 
     </body>
 </html>
