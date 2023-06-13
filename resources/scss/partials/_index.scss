@@ -1,0 +1,25 @@
+
+.table{
+  height: 10px;
+}
+.scroll{
+  overflow-y: scroll;
+  height: calc(100vh - 330px);
+
+}
+
+th{
+  position: sticky;
+  top: 0;
+}
+
+
+td{
+  a{
+    text-decoration: none;
+    padding: 8px 14px;
+    background-color: orange;
+  }
+}
+
+

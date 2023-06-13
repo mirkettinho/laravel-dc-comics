@@ -1,0 +1,33 @@
+.img-show{
+  height: 400px;
+  padding: 0px 30px;
+  img{
+    height: 100%;
+  }
+}
+
+.box-card-show{
+  background-color: white;
+  margin: 20px 40px 0px 40px;
+  padding: 20px;
+  padding-bottom: 40px;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 5px 15px;
+
+}
+
+
+.box-card-show-bottom{
+  background-color: white;
+  margin: 20px 40px;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 5px 15px;
+  p{
+    font-size: 0.8rem;
+  }
+}
+
+
+.disabled{
+  pointer-events: none;
+}

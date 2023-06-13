@@ -8,7 +8,7 @@
       <div class="line"></div>
 
       <li>
-        <a href="{{route("home")}}"><i class="fa-solid fa-house"></i>Home</a>
+        <a href="{{route("home")}}"><i class="fa-solid fa-house"></i>Dashboard</a>
       </li>
     <li>
       <a href="{{route("comics.index")}}"><i class="fa-solid fa-table-list"></i>Elenco fumetti</a>

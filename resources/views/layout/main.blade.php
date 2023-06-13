@@ -20,6 +20,9 @@
       <div class="jumbotron">
 
         <main>
+          <div class="bg-h1 ">
+            <h1>@yield("name")</h1>
+          </div>
           @yield("content")
         </main>
 
