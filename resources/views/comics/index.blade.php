@@ -19,7 +19,9 @@
       <td>{{$comic->id}}</td>
       <td>{{$comic->title}}</td>
       <td>{{$comic->series}}</td>
-      <td>@mdo</td>
+      <td>
+        <a href="{{route("comics.show", $comic)}}">VAI</a>
+      </td>
     </tr>
     @endforeach
   </tbody>
