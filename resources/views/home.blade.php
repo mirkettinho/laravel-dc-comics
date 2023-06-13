@@ -2,4 +2,5 @@
 
 @section("content")
 
+ciao sono la home
 @endsection
