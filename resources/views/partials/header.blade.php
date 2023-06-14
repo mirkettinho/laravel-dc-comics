@@ -14,7 +14,7 @@
       <a href="{{route("comics.index")}}"><i class="fa-solid fa-table-list"></i>Elenco fumetti</a>
     </li>
     <li>
-      <a href=""><i class="fa-solid fa-file-circle-plus"></i>Nuovo prodotto</a>
+      <a href="{{route("comics.create")}}"><i class="fa-solid fa-file-circle-plus"></i>Nuovo prodotto</a>
     </li>
   </ul>
 

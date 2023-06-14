@@ -32,7 +32,7 @@ Dashboard
             <h3>Aggiungi Prodotto</h3>
             <p class="font-0-8">Compilare il form per aggiungere un nuovo prodotto nell'elenco dei fumetti</p>
             <div class="md-center">
-              <a href="{{route("comics.index")}}">Vai</a>
+              <a href="{{route("comics.create")}}">Vai</a>
             </div>
           </div>
       </div>
