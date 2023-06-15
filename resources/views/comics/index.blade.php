@@ -33,7 +33,7 @@
       <td>{{$comic->type}}</td>
       <td>
         <a class="bg-primary" href="{{route("comics.show", $comic)}}"><i class="fa-solid fa-eye text-white"></i></a>
-        <a class="bg-warning" href="{{route("comics.show", $comic)}}"><i class="fa-solid fa-pen text-white"></i></a>
+        <a class="bg-warning" href="{{route("comics.edit", $comic)}}"><i class="fa-solid fa-pen text-white"></i></a>
         <a class="bg-danger" href="{{route("comics.show", $comic)}}"><i class="fa-solid fa-trash-can text-white"></i></a>
       </td>
     </tr>
