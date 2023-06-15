@@ -2,7 +2,7 @@
 
 
 @section("name")
-MODIFICA PRODOTTO
+MODIFICA
 @endsection
 
 @section("content")

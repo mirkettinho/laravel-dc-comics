@@ -9,6 +9,12 @@
 
 </div> --}}
 <div class="scroll">
+
+  @if(session("deleted"))
+  <div class="alert alert-success" role="alert">
+    {{session("deleted")}}
+  </div>
+  @endif
 <table class="table">
   <thead>
     <tr>
@@ -34,7 +40,13 @@
       <td>
         <a class="bg-primary" href="{{route("comics.show", $comic)}}"><i class="fa-solid fa-eye text-white"></i></a>
         <a class="bg-warning" href="{{route("comics.edit", $comic)}}"><i class="fa-solid fa-pen text-white"></i></a>
-        <a class="bg-danger" href="{{route("comics.show", $comic)}}"><i class="fa-solid fa-trash-can text-white"></i></a>
+
+        <form class="d-inline" action="{{route("comics.destroy", $comic) }}" method="POST" onsubmit="return confirm('Conferma per eliminare il prodotto: {{$comic->title}}')">
+          @csrf
+          @method("DELETE")
+          <button type="submit" class="bg-danger"><i class="fa-solid fa-trash-can text-white"></i></button>
+        </form>
+
       </td>
     </tr>
     @endforeach
