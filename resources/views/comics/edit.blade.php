@@ -117,6 +117,6 @@ MODIFICA
     @error("writers") <p class="text-danger">{{$message}}</p> @enderror
   </div>
   {{-- 10 --}}
-  <button type="submit" class="btn btn-primary">Aggiungi Prodotto</button>
+  <button type="submit" class="btn btn-primary">Modifica</button>
 </form>
 @endsection

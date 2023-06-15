@@ -22,7 +22,15 @@ Visualizzazione
         {{$comic->price}}
         <div>Data vendita: {{$comic->sale_date}}</div>
         <div class="md-center">
-          <a href="{{route("comics.index")}}">Vai</a>
+          <a href="{{route("comics.index")}}">Torna a l'elenco</a>
+          <a class="bg-warning" href="{{route("comics.edit", $comic)}}">Modifica</a>
+
+          <form class="d-inline" action="{{route("comics.destroy", $comic) }}" method="POST" onsubmit="return confirm('Conferma per eliminare il prodotto: {{$comic->title}}')">
+            @csrf
+            @method("DELETE")
+            <button type="submit" class="bg-danger">Elimina</button>
+          </form>
+
         </div>
       </div>
   </div>
